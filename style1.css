@@ -681,7 +681,7 @@ input[type=submit] {
 }
 
 /* viewport 360*760 */
-@media screen and (min-width: 360px) and (max-width: 760px){
+@media screen and (min-width: 360px){
    .header{
     width: 375px;
     background-color: #FCA738;
@@ -828,24 +828,15 @@ input[type=submit] {
         flex-wrap: nowrap;
         justify-content: space-between;
     }
-    .gallery img{
-        width: 115%;
-    }
-    .gallery-1{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-    .gallery-1 img{
-        width: 115%;
+    .work img{
+        width: 100%;
     }
 
 
     /* resume-section */
     .resume{
         position: absolute;
-        top: 410%;
+        top: 300%;
         left: 0%;
         width: 375px;
         height: 90vh;
@@ -903,7 +894,7 @@ input[type=submit] {
     /* feedback-section */
     .feedback{
         position: absolute;
-        top: 520%;
+        top: 420%;
         left: 0%;
         width: 375px;
     }
@@ -921,16 +912,16 @@ input[type=submit] {
     }
     .person-1 h5{
         text-align: center;
-        margin-left: 12vh;
-        font-size: 4vh;
+        margin-left: 17vh;
+        font-size: 5vh;
     }
     #name{
-       width: 30%;
-       margin-left: 14vh;
+       width: 20%;
+       margin-left: 19vh;
     }
     .feedback p{
-        width: 80%;
-        margin-left: 2.3vh;
+        width: 100%;
+        margin-left: 2vh;
     }
     .section-4 p{
         width: 375px;
@@ -940,7 +931,7 @@ input[type=submit] {
      /* contact-section */
     .contact-section{
         position: absolute;
-        top: 630%;
+        top: 550%;
         left: 0%;
         width: 375px;
       
@@ -948,7 +939,8 @@ input[type=submit] {
     .contact-section h2{
         position: absolute;
         left: 25%;
-        width: 40%;
+        top: -15%;
+        width: 50%;
     }
     .address{
         width: 375px;
@@ -988,7 +980,7 @@ input[type=submit] {
     /* footer-section */
     .creadit{
         position: absolute;
-        top: 778%;
+        top: 730%;
         width: 375px;
         font-size: 2.5vh;
         margin-left: 0%;
