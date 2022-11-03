@@ -681,7 +681,7 @@ input[type=submit] {
 }
 
 /* viewport 360*760 */
-@media screen and (min-width: 360px){
+@media screen and (max-width: 767px){
    .header{
     width: 375px;
     background-color: #FCA738;
