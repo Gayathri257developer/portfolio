@@ -689,7 +689,7 @@ input[type=submit] {
 /* viewport 360*760 */
 @media screen and (max-width: 767px){
    .header{
-    width: 375px;
+    width: 476px;
     background-color: #FCA738;
    }
     nav .fa{
@@ -792,12 +792,12 @@ input[type=submit] {
         position: relative;
         left: -30%;
         width: 67%;
-        font-size: 5vw;
+        font-size: 3vw;
     }
    
     .skills{
         position: absolute;
-        top: 205%;
+        top: 155%;
         left: -34%;
         width: 74%;
         height: 80%;
@@ -806,7 +806,7 @@ input[type=submit] {
         position: absolute; 
         left: 3%;
         top: -10%;
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .skills img{
         position: relative;
@@ -826,7 +826,7 @@ input[type=submit] {
         top: 9%;
         left: 18%;
         width: 55%;
-        font-size: 8vw;
+        font-size: 5vw;
     }
     .gallery{
         display: flex;
@@ -908,6 +908,7 @@ input[type=submit] {
         font-size: 3.5vh;
         position: absolute;
         left: 5%;
+        top: -10%;
         width: 79%;
     }
     .person-2{
